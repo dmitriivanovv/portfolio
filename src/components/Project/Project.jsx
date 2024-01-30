@@ -8,7 +8,7 @@ const Project = ({ img, title, index }) => {
   return (
     <li className="project">
 
-      <NavLink to={`/portfolio/projects/project/${index}`}>
+      <NavLink to={`/projects/project/${index}`}>
         <img
           src={img}
           alt="Project img"

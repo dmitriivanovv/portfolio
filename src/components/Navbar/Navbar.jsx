@@ -26,8 +26,8 @@ const Navbar = () => {
 
             <li className="nav-list__item">
               <NavLink
-                to='/portfolio'
-                className={(pathname === '/portfolio') ? activeLink : regularLink}
+                to='/'
+                className={(pathname === '/') ? activeLink : regularLink}
               >
                 Home
               </NavLink>
@@ -35,8 +35,8 @@ const Navbar = () => {
 
             <li className="nav-list__item">
               <NavLink
-                to='/portfolio/projects'
-                className={(pathname === '/portfolio/projects') ? activeLink : regularLink}
+                to='/projects'
+                className={(pathname === '/projects') ? activeLink : regularLink}
               >
                 Projects
               </NavLink>
@@ -44,8 +44,8 @@ const Navbar = () => {
 
             <li className="nav-list__item">
               <NavLink
-                to='/portfolio/contacts'
-                className={(pathname === '/portfolio/contacts') ? activeLink : regularLink}
+                to='/contacts'
+                className={(pathname === '/contacts') ? activeLink : regularLink}
               >
                 Contacts
               </NavLink>
