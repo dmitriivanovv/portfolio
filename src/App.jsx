@@ -1,10 +1,10 @@
+import { Navigate, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import ProjectPage from "./pages/ProjectPage";
 import Contacts from "./pages/Contacts";
 import Home from "./pages/Home";
+import ProjectPage from "./pages/ProjectPage";
 import Projects from "./pages/Projects";
-import { BrowserRouter as Router, Routes, Route, Navigate, HashRouter, } from "react-router-dom";
 
 import "./styles/main.css";
 import ScrollToTop from "./utils/ScrollRestoration";

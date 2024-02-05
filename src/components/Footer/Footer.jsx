@@ -1,30 +1,34 @@
 import React from 'react'
 import "./footer.css"
 
+import telegram from "../../img/icons/telegram.svg"
 import gitHub from "../../img/icons/gitHub.svg"
-import instagram from "../../img/icons/instagram.svg"
-import linkedIn from "../../img/icons/linkedIn.svg"
-import twitter from "../../img/icons/twitter.svg"
-import vk from "../../img/icons/vk.svg"
-
+import hh from "../../img/icons/headHunter.svg"
 const Footer = () => {
   return (
     <footer className="footer">
-        <div className="container">
-          <div className="footer__wrapper">
-            <ul className="social">
-              <li className="social__item"><a href="#!"><img src={vk} alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src={instagram} alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src={twitter} alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src={gitHub} alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src={linkedIn} alt="Link" /></a></li>
-            </ul>
-            <div className="copyright">
-              <p>© 2022 frontend-dev.com</p>
-            </div>
-          </div>
+      <div className="container">
+        <div className="footer__wrapper">
+          <ul className="social">
+            <li className="social__item">
+              <a href="https://github.com/dmitriivanovv" target='_blank' rel="noreferrer">
+                <img src={gitHub} alt="Link" />
+              </a>
+            </li>
+            <li className="social__item">
+              <a href="https://hh.ru/resume/89dfad30ff0c53889e0039ed1f68486b307941" target='_blank' rel="noreferrer">
+                <img src={hh} alt="Link" />
+              </a>
+            </li>
+            <li className="social__item">
+              <a href="https://t.me/dimitrihios" target='_blank' rel="noreferrer">
+                <img src={telegram} alt="Link" />
+              </a>
+            </li>
+          </ul>
         </div>
-      </footer>
+      </div>
+    </footer>
   )
 }
 

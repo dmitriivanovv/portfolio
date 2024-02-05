@@ -4,19 +4,21 @@ import "./header.css";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header__wrapper">
-        <h1 className="header__title">
-          <strong>
-            Hi, my name is <em>Yuri</em>
-          </strong>
-          <br />a frontend developer
-        </h1>
-        <div className="header__text">
-          <p>with passion for learning and creating.</p>
+      <div className="container">
+        <div className="header__wrapper">
+          <h1 className="header__title">
+            <strong>
+              Привет, меня зовут <em>Дмитрий</em>
+            </strong>
+            <br /> я- frontend разработчик
+          </h1>
+          <div className="header__text">
+            <p> воплощающий идеи в креативные и интуитивно понятные веб-интерфейсы.</p>
+          </div>
+          <a href="https://github.com/dmitriivanovv/" target="_blank" rel="noreferrer" className="btn">
+            GitHub
+          </a>
         </div>
-        <a href="#!" className="btn">
-          Download CV
-        </a>
       </div>
     </header>
   );

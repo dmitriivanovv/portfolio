@@ -16,11 +16,11 @@ const Navbar = () => {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <a href="./index.html" className="logo">
+          {/* <a href="./index.html" className="logo">
             <strong>Freelancer</strong> portfolio
-          </a>
+          </a> */}
 
-          <DarkModeBtn/>
+          <DarkModeBtn />
 
           <ul className="nav-list">
 
@@ -29,7 +29,7 @@ const Navbar = () => {
                 to='/'
                 className={(pathname === '/') ? activeLink : regularLink}
               >
-                Home
+                Главная
               </NavLink>
             </li>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
                 to='/projects'
                 className={(pathname === '/projects') ? activeLink : regularLink}
               >
-                Projects
+                Проекты
               </NavLink>
             </li>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
                 to='/contacts'
                 className={(pathname === '/contacts') ? activeLink : regularLink}
               >
-                Contacts
+                Контакты
               </NavLink>
             </li>
 

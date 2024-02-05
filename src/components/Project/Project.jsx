@@ -4,7 +4,7 @@ import "./project.css";
 
 
 
-const Project = ({ img, title, index }) => {
+const Project = ({ img, title, index, }) => {
   return (
     <li className="project">
 
